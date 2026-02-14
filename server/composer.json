@@ -1,0 +1,14 @@
+{
+    "name": "nesneek/php-server",
+    "description": "PHP Backend for file.nesneek.com",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^6.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nesneek\\": "src/"
+        }
+    }
+}
